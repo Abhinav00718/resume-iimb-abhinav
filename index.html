@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abhinav BJ - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0d3b66;
+      --accent: #faa916;
+      --background: #f9f9f9;
+      --text: #333;
+      --card-bg: #fff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: var(--accent);
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .section {
+      background: var(--card-bg);
+      margin-bottom: 25px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-bottom: 15px;
+      border-left: 5px solid var(--accent);
+      padding-left: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .flex-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .flex-item {
+      flex: 1 1 200px;
+    }
+
+    a {
+      color: var(--primary);
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Abhinav BJ</h1>
+    <nav>
+      <a href="#summary">Summary</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="section" id="summary">
+      <h2>Summary</h2>
+      <p>Economics enthusiast passionate about business management and finance. Currently pursuing BBA in Digital Business and Entrepreneurship at IIM Bangalore. Seeking opportunities in finance, risk management, and stock markets.</p>
+    </section>
+
+    <section class="section" id="experience">
+      <h2>Experience</h2>
+      <h3>Financial Analyst Intern – Margin Sentiment Advisorys Pvt Ltd (03/2024 – 06/2024)</h3>
+      <ul>
+        <li>Training on stock market fundamentals.</li>
+        <li>Analyzed various stock types and prepared reports.</li>
+      </ul>
+      <h3>Sales Intern – Edgrasp.in (11/2023 – 01/2024)</h3>
+      <ul>
+        <li>Handled sales and marketing responsibilities.</li>
+        <li>Recruited interns across domains.</li>
+      </ul>
+      <h3>Sales and Marketing Intern – My Equation India (09/2023 – 11/2023)</h3>
+      <ul>
+        <li>Worked as SMO intern for EdTech firm workshops.</li>
+      </ul>
+    </section>
+
+    <section class="section" id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>IIM Bangalore</strong> – BBA Digital Business and Entrepreneurship (2024–2027)</li>
+        <li><strong>Manipal Academy of Higher Education</strong> – Economics (Hons) (2023–2026)</li>
+        <li><strong>Velammal Global School</strong> – IGCSE and A Levels (2019–2023)</li>
+      </ul>
+    </section>
+
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <div class="flex-group">
+        <div class="flex-item">Finance</div>
+        <div class="flex-item">Excel</div>
+        <div class="flex-item">PowerPoint</div>
+        <div class="flex-item">Market Research</div>
+        <div class="flex-item">Sales</div>
+        <div class="flex-item">Marketing</div>
+        <div class="flex-item">Stock Market</div>
+        <div class="flex-item">Business Analysis</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Languages</h2>
+      <div class="flex-group">
+        <div class="flex-item">English – Advanced</div>
+        <div class="flex-item">Hindi – Advanced</div>
+        <div class="flex-item">Tamil – Advanced</div>
+        <div class="flex-item">Malayalam – Advanced</div>
+        <div class="flex-item">French – Beginner</div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <p><strong>Phone:</strong> 9003662198</p>
+      <p><strong>Email:</strong> <a href="mailto:abhinavbj24@gmail.com">abhinavbj24@gmail.com</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/abhinav-bj-784ba2295">Visit Profile</a></p>
+      <p><strong>Location:</strong> Bengaluru, India</p>
+    </section>
+  </div>
+
+</body>
+</html>
